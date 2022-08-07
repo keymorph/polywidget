@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js"></script>
+        <title>Fourscript | Timer</title>
+    </head>
+
+    <!-- When the page loads, run function to disable certain buttons -->
+    <body onload="disableButtons()">
+        <!-- When you click a button, "set the timer" (pass minute value) and enable the Start button -->
+        <button type="button" class="set" id="one" onclick="setTimer(1)">1 MIN</button>
+        <button type="button" class="set" id="five" onclick="setTimer(5)">5 MIN</button>
+        <button type="button" class="set" id="ten" onclick="setTimer(10)">10 MIN</button>
+        <button type="button" class="set" id="fifteen" onclick="setTimer(15)">15 MIN</button>
+        <button type="button" class="set" id="twenty" onclick="setTimer(20)">20 MIN</button>
+
+        <div id="timer">00:00</div>
+
+        <!-- When you click an action, trigger that respective function -->
+        <button type="button" class="waiting" id="start" onclick="startTimer()">Start</button>
+        <button type="button" class="functioning" id="pause" onclick="pauseTimer()">Pause</button>
+        <button type="button" class="functioning" id="stop" onclick="stopTimer()">Stop</button>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style> 
+        <script src="./array.js"></script>
+        <title>FourScript | Calculator</title>
+    </head>
+    <body>
+        <div class="calculator">
+            <div id="display">
+                <div id="data">
+                    <div id="number">0</div>
+                    <div id="equation"></div>
+                </div>
+            </div>
+            <div class="container">
+                <button class="action big" id="clear" onclick="clearEverything()">Clear</button>
+                <button class="action small" id="delete" onclick="clearNumber()">←</button>
+                <button class="operator small" id="divide" onclick="addToEquation('/')">÷</button>
+            </div>
+            <div class="container">
+                <button class="number small" id="seven" onclick="addToNumber('7')">7</button>
+                <button class="number small" id="eight" onclick="addToNumber('8')">8</button>
+                <button class="number small" id="nine" onclick="addToNumber('9')">9</button>
+                <button class="operator small" id="multiply" onclick="addToEquation('*')">*</button>
+            </div>
+            <div class="container">
+                <button class="number small" id="four" onclick="addToNumber('4')">4</button>
+                <button class="number small" id="five" onclick="addToNumber('5')">5</button>
+                <button class="number small" id="six" onclick="addToNumber('6')">6</button>
+                <button class="operator small" id="minus" onclick="addToEquation('-')">-</button>
+            </div>
+            <div class="container">
+                <button class="number small" id="one" onclick="addToNumber('1')">1</button>
+                <button class="number small" id="two" onclick="addToNumber('2')">2</button>
+                <button class="number small"id="three" onclick="addToNumber('3')">3</button>
+                <button class="operator small" id="plus" onclick="addToEquation('+')">+</button>
+            </div>
+            <div class="container">
+                <button class="number big" id="zero" onclick="addToNumber('0')">0</button>
+                <button class="number small" id="decimal" onclick="addToNumber('.')">.</button>
+                <button class="action small" id="equate" onclick="solveEquation()">=</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-color: #F0DB4F;
+}
+
+#timer {
+    font-size: 100px;
+}
+
+#start:focus {
+    background-color: blue;
+}

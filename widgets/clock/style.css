@@ -1,0 +1,9 @@
+body {
+    background-color: #F0DB4F;
+}
+
+#clock { 
+    color: #323330;
+    text-align: center;
+    font-size: 100px;
+}

@@ -1,0 +1,44 @@
+#display {
+    height: minmax(76px, auto);
+    width: 216px;
+    border: 1px solid grey;
+    margin: 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+}
+
+#data {
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+#number {
+    font-size: 30px;
+}
+
+#equation {
+    font-size: 15px;
+}
+
+button {
+    padding: 10px;
+    margin: 3px;
+    cursor: pointer;
+   
+}
+
+.container {
+    display: flex;
+}
+
+.big {
+    width: 106px;
+}
+
+.small {
+    width: 50px;
+}
