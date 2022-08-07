@@ -2,7 +2,7 @@
 
 ## **About**
 > *A free web application, intended for setting as a browser's Homepage, with useful widgets for users.*  
-🔗 → [Polywidget](https://polywidget.keymorph.com "Keymorph Polywidget App")  
+🔗 → [Polywidget (Not yet deployed)](https://polywidget.keymorph.com "Keymorph Polywidget App")  
 
 ## **Instructions**
 ```bash
