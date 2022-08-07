@@ -1,21 +1,17 @@
-# 🔐 Keymorph  —  **`Website`**
+# 🔐 Keymorph  —  **`Polywidget`**
 
 ## **About**
-> *Landing page for Keymorph; showcasing all projects, members, and socials.*  
-🔗 → [Keymorph.com](https://keymorph.com "Keymorph Landing Page")  
-
-<br>
+> *A free web application, intended for setting as a browser's Homepage, with useful widgets for users.*  
+🔗 → [Polywidget](https://polywidget.keymorph.com "Keymorph Polywidget App")  
 
 ## **Instructions**
 ```bash
-git clone https://github.com/keymorph/website.git
+git clone https://github.com/keymorph/polywidget.git
 cd website
 
 yarn
 yarn dev
 ```
-
-<br>
 
 <a href="https://vercel.com/?utm_source=keymorph&utm_campaign=oss">
     <img src="public/images/vercel.svg"></img>
